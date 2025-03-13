@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { fetchOuvrages, reserverOuvrage } from '../services/api';
+import { fetchOuvrages, reserverOuvrage } from '../services/auth';
 
 const Ouvrages = () => {
     const [ouvrages, setOuvrages] = useState([]);
